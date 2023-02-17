@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+  box-sizing: border-box;
+}
+.bg-container {
+  background-color: #161625;
+  min-height: 100vh;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.responsive-wrapper {
+  width: 100%;
+  max-width: 900px;
+}
+.header-section {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 3rem;
+}
+.header-logo-img {
+  width: 50px;
+}
+.logo-heading {
+  color: #2cc6c6;
+  font-size: 1.5rem;
+}
+.dashboard-heading {
+  color: #cbd5e1;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+.loader-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.failure-screen-container {
+}
+.failure-img {
+}
+.ailure-text {
+}
